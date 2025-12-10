@@ -1,0 +1,56 @@
+.resume-uploader {
+  flex: 1;
+  min-width: 280px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.03);
+}
+
+.resume-uploader__header {
+  margin-bottom: 10px;
+}
+
+.resume-title {
+  margin: 0 0 4px;
+  font-weight: 700;
+}
+
+.resume-subtitle {
+  margin: 0;
+  color: #4b5563;
+}
+
+.resume-uploader__body {
+  border: 1px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 16px;
+  background: #f8fafc;
+  text-align: center;
+  cursor: pointer;
+}
+
+.resume-prompt {
+  margin: 0 0 6px;
+  color: #111827;
+  font-weight: 600;
+}
+
+.resume-status {
+  margin: 0;
+  color: #6b7280;
+}
+
+.resume-input {
+  display: none;
+}
+
+.resume-error {
+  margin-top: 10px;
+  color: #991b1b;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 10px;
+  padding: 8px 10px;
+}
